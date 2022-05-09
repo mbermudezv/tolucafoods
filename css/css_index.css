@@ -1,0 +1,46 @@
+@-ms-viewport {
+  width: device-width;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+
+@viewport {
+  width: device-width;
+}
+
+html {
+  overflow-y: auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #6c7059;
+}
+
+#divTitulo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.2em;
+  background-color: black;
+  border-radius: 5px;
+  text-align: center;
+  color: whitesmoke;
+  border-left: 0.1vw solid #707070;
+  border-bottom: 0.2vw solid #707070;
+}
+/*# sourceMappingURL=css_index.css.map */
