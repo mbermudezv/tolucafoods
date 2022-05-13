@@ -1,6 +1,7 @@
 function cargaPantalla() {
 
-    return `<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    // <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    return `<link rel="stylesheet" href="css/bootstrap.min.css">
             <style>
                 a:link {text-decoration: none;}
                 a:visited {text-decoration: none;}
