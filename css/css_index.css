@@ -1,15 +1,9 @@
-@-ms-viewport {
-  width: device-width;
-}
-
 @-o-viewport {
   width: device-width;
 }
-
 @viewport {
   width: device-width;
 }
-
 html {
   overflow-y: auto;
 }
@@ -23,13 +17,8 @@ html, body {
 }
 
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background-color: #ffddd3;
 }
 
@@ -42,5 +31,4 @@ body {
   color: whitesmoke;
   border-left: 0.1vw solid #707070;
   border-bottom: 0.2vw solid #707070;
-}
-/*# sourceMappingURL=css_index.css.map */
+}/*# sourceMappingURL=css_index.css.map */
